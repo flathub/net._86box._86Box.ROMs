@@ -31,5 +31,5 @@ modules:
       - install -Dm755 apply_extra ${FLATPAK_DEST}/bin/apply_extra
       - |
         for dir in floppy hdd icons machines network printer scsi sound video; do
-          ln -s extra/$dir $dir
+          ln -s extra/$dir ${FLATPAK_DEST}/$dir
         done

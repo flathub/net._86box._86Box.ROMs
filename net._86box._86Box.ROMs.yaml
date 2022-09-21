@@ -1,8 +1,9 @@
 id: net._86box._86Box.ROMs
-build-extension: true
 runtime: net._86box._86Box
 runtime-version: stable
 sdk: org.kde.Sdk//5.15-22.08
+build-extension: true
+appstream-compose: false
 tags:
   - proprietary
 
@@ -28,6 +29,7 @@ modules:
           - rm -f 86Box-roms.tar.gz
     build-commands:
       - install -Dm644 net._86box._86Box.ROMs.metainfo.xml ${FLATPAK_DEST}/share/metainfo/net._86box._86Box.ROMs.metainfo.xml
+      - appstream-compose --basename=${FLATPAK_ID} --prefix=${FLATPAK_DEST} --origin=flatpak ${FLATPAK_ID}
       - install -Dm755 apply_extra ${FLATPAK_DEST}/bin/apply_extra
       - |
         for dir in floppy hdd icons machines network printer scsi sound video; do

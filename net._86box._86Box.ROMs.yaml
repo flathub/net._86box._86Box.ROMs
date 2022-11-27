@@ -18,7 +18,7 @@ modules:
         x-checker-data:
           type: anitya
           project-id: 268433
-          url-template: https://github.com/86Box/roms/archive/refs/tags/$version.tar.gz
+          url-template: https://github.com/86Box/roms/archive/refs/tags/v$version.tar.gz
       - type: file
         path: net._86box._86Box.ROMs.metainfo.xml
       - type: script

@@ -13,8 +13,8 @@ modules:
       - type: extra-data
         filename: 86Box-roms.tar.gz
         url: https://github.com/86Box/roms/archive/refs/tags/v3.11.tar.gz
-        sha256: 795854f6d7dfabd3bbe9ef189519d8637facb5f0e255a885295e8f28a371d3eb
-        size: 39720454
+        sha256: a1cd91d4e2973434e9886aec836b984c809329d07c7e3420ac3ea8d5c904826e
+        size: 39670069
         x-checker-data:
           type: anitya
           project-id: 268433

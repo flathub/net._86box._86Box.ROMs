@@ -2,7 +2,7 @@ id: net._86box._86Box.ROMs
 build-extension: true
 runtime: net._86box._86Box
 runtime-version: stable
-sdk: org.kde.Sdk//5.15-22.08
+sdk: org.kde.Sdk//5.15-23.08
 tags:
   - proprietary
 

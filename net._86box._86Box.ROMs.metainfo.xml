@@ -11,6 +11,7 @@
   </description>
   <url type="homepage">https://86box.net</url>
   <releases>
+    <release version="4.1" date="2024-02-24"/>
     <release version="4.0.1" date="2023-10-18"/>
     <release version="4.0" date="2023-08-27"/>
     <release version="3.11" date="2022-11-26"/>

@@ -5,6 +5,7 @@
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>LicenseRef-proprietary=https://raw.githubusercontent.com/86Box/roms/master/LICENSE</project_license>
   <name>86Box ROMs</name>
+  <developer_name>86Box developers</developer_name>
   <summary>ROMs for an 86Box classic IBM PC clones emulator</summary>
   <description>
     <p>This extension contains all ROMs needed by the 86Box emulator.</p>

@@ -12,9 +12,9 @@ modules:
     sources:
       - type: extra-data
         filename: 86Box-roms.tar.gz
-        url: https://github.com/86Box/roms/archive/refs/tags/v5.2.tar.gz
-        sha256: 6557f32392a31773df022bb25123d28dc3151b94bd1c5498d12a7bd5b29dca6f
-        size: 64976494
+        url: https://github.com/86Box/roms/archive/refs/tags/v5.3.tar.gz
+        sha256: 18929c97be2a089c7042bc96b81e61566a183036ea56792ff46b9225d0b3043d
+        size: 68123712
         x-checker-data:
           type: anitya
           project-id: 268433
